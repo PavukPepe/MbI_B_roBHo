@@ -21,7 +21,7 @@ namespace Calendar.VeiwModels
 
         public DayViewModel()
         {
-            save = new CommandHelper(_ => save_Click())
+            save = new CommandHelper(_ => save_Click());
         }
     }
 }
