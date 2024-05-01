@@ -18,8 +18,8 @@
             <RowDefinition/>
             <RowDefinition Height="8*"/>
         </Grid.RowDefinitions>
-        <Button Grid.Row="0" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" Content="Вернуться" FontSize="9px" Background="#be1010" FontWeight="Black"/>
-        <Button Grid.Row="0" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center" Content="Сохранить" FontSize="9px" Background="#be1010" FontWeight="Black"/>
+        <Button x:Name="BackButton" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" Content="Вернуться" FontSize="9px" Background="Red" FontWeight="Black" Click="Back_Click" Foreground="White"/>
+        <Button x:Name="SaveButton" Grid.Row="0" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center" Content="Сохранить" FontSize="9px" Background="Red" FontWeight="Black" Click="Save_Click" Foreground="White"/>
         <TextBlock Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Text="{Binding}" FontSize="25px"/>
         <WrapPanel Grid.Row="1" Grid.Column="1">
         </WrapPanel>
