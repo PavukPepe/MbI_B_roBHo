@@ -18,11 +18,13 @@ namespace Calendar.Models
             this.name = name;
             this.path_name = path_name;
         }
-        public Pivo kozel = new Pivo(1, "Козел", "../Sources/unnamed.png");
-        public Pivo shpaten = new Pivo(2, "Шпатен", "../Sources/unnamed.png");
-        public Pivo baltica_9 = new Pivo(5, "Балтика 9", "../Sources/unnamed.png");
-        public Pivo starii_from_bochonock = new Pivo(1, "Старый мельник из боченка", "../Sources/unnamed.png");
-        public Pivo esse = new Pivo(4, "Ессе", "../Sources/unnamed.png");
+        public static Pivo kozel = new Pivo(1, "Козел", "../Sources/unnamed.png");
+        public static Pivo shpaten = new Pivo(2, "Шпатен", "../Sources/unnamed.png");
+        public static Pivo baltica_9 = new Pivo(5, "Балтика 9", "../Sources/unnamed.png");
+        public static Pivo starii_from_bochonock = new Pivo(1, "Старый мельник из боченка", "../Sources/unnamed.png");
+        public static Pivo esse = new Pivo(4, "Ессе", "../Sources/unnamed.png");
+
+        public List<Pivo> pivos = new List<Pivo>() { kozel, shpaten, baltica_9, starii_from_bochonock, esse};
     }
 
    
